@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  audiodecoding.cpp
+  dllmain.cpp
+  videodecoding.cpp
+  Generating Code...
+     Creating library D:\src\RtspClientSharp\Examples\libffmpeghelper\x86\Debug\libffmpeghelper.lib and object D:\src\RtspClientSharp\Examples\libffmpeghelper\x86\Debug\libffmpeghelper.exp
+  libffmpeghelper.vcxproj -> D:\src\RtspClientSharp\Examples\libffmpeghelper\x86\Debug\libffmpeghelper.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

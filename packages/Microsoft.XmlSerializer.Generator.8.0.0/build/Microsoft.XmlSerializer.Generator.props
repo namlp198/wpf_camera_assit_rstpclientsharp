@@ -1,0 +1,11 @@
+<Project>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.XmlSerializer.Generator" Version="8.0.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <SgenPackSerializer Condition="'$(SgenPackSerializer)'==''">True</SgenPackSerializer>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(SgenPackSerializer)'=='True'">
+    <BuildOutputInPackage Include="$(OutputPath)$(AssemblyName).XmlSerializers.dll" />
+  </ItemGroup>
+</Project>
